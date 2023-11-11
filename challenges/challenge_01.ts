@@ -1,4 +1,4 @@
-export const searchPattern = (message: string) => {
+export const searchPattern = (message: string): string => {
   const words = message.split(' ')
 
   const map = new Map<string, number>()

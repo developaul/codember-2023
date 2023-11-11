@@ -1,5 +1,5 @@
-import { Challenge01 } from './challenges'
-import { Challenge01Data } from './data'
+import { Challenge02 } from './challenges'
+import { Challenge02Data } from './lib'
 
-const pattern = Challenge01.searchPattern(Challenge01Data.message)
-console.log(pattern)
+const output = Challenge02.compile(Challenge02Data.program1)
+console.log(output)

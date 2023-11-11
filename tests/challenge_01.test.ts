@@ -1,7 +1,7 @@
 import { expect, test } from "bun:test";
 
-import { Challenge01 } from "../challenges";
-import { Challenge01Data } from "../data";
+import { Challenge01 } from "@challenges";
+import { Challenge01Data } from "@lib";
 
 test("Should search pattern", () => {
   const pattern = Challenge01.searchPattern(Challenge01Data.message)
